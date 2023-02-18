@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia Bootstrap</title>
+
+    <!-- CDN (Content Delivery Network) referencia a bootstrap estilos -->
+    <!--estos siempre van en el head y despues van los scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Biografía Pedro Picapiedra</h1>
+    </div>
+    
+<!-- Formas de integrar Boostrap a mi documento HTML 
+    
+    1. Usando el CDN (Content Delivery Network) donde hacemos una referencia al link del servidor de Boostrap para tomar esos estilos y usarlos.
+
+    2. Usando el archivo de la seccion "Download" y agregandolo como si fuera una carpeta de assets
+-->
+
+<!-- Caracterticas fundamentales de Boostrap
+
+    - Mobile first
+    - Grid responsive
+    - Componentes reutilizables
+    - Containers
+
+-->
+
+<!-- TODO lo que usamos con Boostrap, debe ir entre contenedores (div) 
+    El Grid o la grilla debe ir siempre dentro de un div
+    Para declarar filas, usamos la palabra row
+    Para declarar columnas, usamos la palabra column
+    Utilizamos 12 columnas, si nos pasamos de estas 12, se agrega hacia abajo
+-->
+    <!-- Con la clase container el texto tiene una sangría, sin la clase esta pegado hasta la izquierda -->
+    <div class="container">
+        <h1>Pedro Picapiedra - Inicios</h1>
+    </div>
+
+    <!-- Grid de 12 columnas -->
+    <div class="container"> <!-- div padre -->
+        <div class="row">   <!-- div hijo para la fila -->
+            <div class="col border">1</div><!-- div hijo para la columna1 -->
+            <div class="col border">2</div>
+            <div class="col border">3</div>
+            <div class="col border">4</div>
+            <div class="col border">5</div>
+            <div class="col border">6</div>
+            <div class="col border">7</div>
+            <div class="col border">8</div>
+            <div class="col border">9</div>
+            <div class="col border">10</div>
+            <div class="col border">11</div>
+            <div class="col border">12</div>
+            <div class="col border">13</div>
+            <div class="col border">14</div>
+        </div>
+    </div>
+
+    
+    
+
+    <!-- funcionalidad de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    
+
+    
+
+
+</body>
+</html>
